@@ -11,8 +11,8 @@ const Thumbnail = ({movie}: Props) => {
         
         <Image 
             alt="thumbnail"
-            src={`https://image.tmdb.org/t/p/w500${ movie.backdrop_path &&
-                movie.backdrop_path || movie.poster_path
+            src={`https://image.tmdb.org/t/p/w500${ movie.backdrop_path ?
+                movie.backdrop_path : movie.poster_path
             }`}
             className="rounded-sm object-cover md:rounded"
             fill={true}
