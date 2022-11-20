@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "chgk",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +40,31 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
+=======
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "gh-pages": "^4.0.0",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwind-scrollbar": "^2.0.1",
+    "tailwindcss": "^3.2.1",
+    "typescript": "4.8.4"
+>>>>>>> 6f0a90ecaec50ff08b067e0e1ef95433d1a74a86
   }
 }
